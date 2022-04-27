@@ -193,10 +193,6 @@ body {
   body {
     display: flex;
     justify-content: center;
-    background-image: url("./images/bg-desktop.png");
-    background-size: fit;
-    background-repeat: no-repeat;
-    background-position: bottom -20% right 0%;
   }
 
   .main-wrapper {
@@ -204,6 +200,9 @@ body {
     height: 100vh;
     background-color: var(--very-dark-blue);
     background-image: url("./images/bg-desktop.png");
+    background-size: fit;
+    background-repeat: no-repeat;
+    background-position: bottom -20% right 0%;
   }
 
   .content {
